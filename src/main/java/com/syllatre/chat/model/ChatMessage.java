@@ -1,0 +1,18 @@
+package com.syllatre.chat.model;
+
+
+import com.syllatre.chat.enums.MessageType;
+import lombok.*;
+
+import java.awt.*;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+
+public class ChatMessage {
+    private String content;
+    private String sender;
+    private MessageType type;
+}
